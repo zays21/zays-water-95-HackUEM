@@ -1,0 +1,26 @@
+# [package]
+# name = "health_data_incentives"
+# version = "1.0.0"
+# authors = []
+
+# [addresses]
+# send_message = '0xe46322017c3c74c0b273bc9d8de5ced799655f8d32f3a867b686834641c930d5'
+# [dev-addresses]
+
+# [dependencies.AptosFramework]
+# git = "https://github.com/aptos-labs/aptos-core.git"
+# rev = "mainnet"
+# subdir = "aptos-move/framework/aptos-framework"
+
+# [dev-dependencies]
+
+
+[package]
+name = "health_incentives"
+version = "0.0.0"
+
+[addresses]
+hello_blockchain = "0xe46322017c3c74c0b273bc9d8de5ced799655f8d32f3a867b686834641c930d5"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
